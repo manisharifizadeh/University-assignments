@@ -1,8 +1,7 @@
-# دریافت عدد از کاربر
-number = int(input("لطفاً یک عدد وارد کن: "))
+# Get a number from the user
+number = int(input("Enter a number: "))
 
-# چاپ جدول ضرب
-print(f"جدول ضرب عدد {number}:")
+# Print the multiplication table up to 12
 for i in range(1, 13):
     result = number * i
-    print(f"{number} × {i} = {result}")
+    print(f"{number} x {i} = {result}")
